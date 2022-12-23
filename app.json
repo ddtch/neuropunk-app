@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "martian-wallet",
+    "slug": "martian-wallet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "jsEngine": "hermes",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "me.ddtch.martianwallet",
+      "buildNumber": "5",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Martian mobile wallet needs to use Face ID / Touch ID to authenticate you"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "me.ddtch.martianwallet"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "backgroundColor": "#fff",
+    "extra": {
+      "eas": {
+        "projectId": "68fc9c4c-49b9-4375-a687-7fbb7c831a68"
+      }
+    }
+  }
+}
